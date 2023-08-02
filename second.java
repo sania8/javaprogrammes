@@ -9,6 +9,7 @@ public class second{
         System.out.println(a+"+"+b);
         int c = a+b;
         System.out.print(c);
+        sc.close();
 
     }
 }

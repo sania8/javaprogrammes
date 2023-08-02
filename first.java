@@ -13,5 +13,6 @@ public class first{
         System.out.print("Input your last name");
         String b = input.next();
         System.out.print("hello \n" +a+" " +b);
+        input.close();
     }
 }
