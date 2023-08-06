@@ -1,6 +1,6 @@
 //palindrome string
 import java.util.Scanner;
-public class a5{
+public class _2104412_5{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -19,10 +19,10 @@ public class a5{
         
         if(str.equals(s))
         {
-            System.out.print("Output:"+"yes");
+            System.out.print("Output: "+"Yes");
         }
         else{
-            System.out.print("Output:"+"No");
+            System.out.print("Output: "+"No");
         }
         sc.close();
 

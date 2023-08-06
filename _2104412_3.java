@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class a3 {
+public class _2104412_3 {
     public static void main(String[] args)
     {
         int characters = 0;

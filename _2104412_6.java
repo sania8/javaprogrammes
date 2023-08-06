@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class a6 {
+public class _2104412_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter temperature (e.g., C 37 or F 98.6): ");
+        System.out.print("Example Input:");
         String input = sc.nextLine().trim();
         sc.close();
 
@@ -12,10 +12,10 @@ public class a6 {
         double result;
         if (unit == 'C' || unit == 'c') {
             result = celsiusToFahrenheit(value);
-            System.out.printf("Converted temperature: %.1f%n", result);
+            System.out.printf("Expected Output: %.1f%n", result);
         } else if (unit == 'F' || unit == 'f') {
             result = fahrenheitToCelsius(value);
-            System.out.printf("Converted temperature: %.1f%n", result);
+            System.out.printf("Expected Output: %.1f%n", result);
         } else {
             System.out.println("Invalid input format. Please use 'C' for Celsius or 'F' for Fahrenheit.");
         }
